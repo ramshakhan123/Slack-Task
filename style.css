@@ -1,0 +1,452 @@
+/* Write all your CSS here */
+/* Please indent properly */
+/* Please use only lower-case letters */
+/* Your webpage should be 100% responsive!!! */
+
+body {
+    margin: 0px;
+}
+
+#channels-logo {
+    width: 100px;
+    height: 600px;
+
+}
+
+#channels-logo div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    color: #260d26;
+}
+
+
+#channels-logo img {
+    width: 60px;
+    margin: 13px;
+
+}
+
+#online-active-lists {
+     width: 200px;
+      color: #ae9aaf;
+      background-color:#3f0e40;
+      padding-left: 15px;
+      padding-right: 13px;
+      
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 12px;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 0px;
+}
+
+ #online-active-lists p {
+    margin: 0px;
+}
+
+#online-active-lists i {
+    padding-top: 10px;
+}
+
+input {
+    background-color: #250027;
+    padding: 7px 10px;
+    border: none;
+    border-radius: 6px;
+}
+
+
+.threads {
+    padding: 8px 0px;
+}
+
+#channels div, #direct-message div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+h4 {
+    margin-bottom: 0px;
+   
+}
+
+ ul   {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+li {
+    margin:0 5px;
+}
+
+ i {
+    color: #ae9aaf;
+    font-size: 20px;
+
+}
+
+ul li i {
+    font-size: 12px;
+    margin: 5px;
+}
+
+
+#direct-message ul li:nth-child(1) i {
+    color: green;
+}
+
+#direct-message ul li:nth-child(2) i {
+ color: green;
+}
+
+.header-logos {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-logos i {
+    margin: 2px;
+    color: #c9c9c9;
+    border: 1px solid #c9c9c9;
+    padding: 4px;
+    border-left: white;
+    border-top: white;
+    border-bottom: white;
+
+}
+
+#main-field-area {
+    width: 700px;
+}
+
+#student-showcase header {
+    margin: 0px;
+}
+
+#student-showcase p {
+    color: #525152;
+}
+
+.header-input {
+    padding-top: 23px;
+}
+
+#student-showcase input {
+    background-color: white;
+color: #c9c9c9;
+border: 1px solid #c9c9c9;
+}
+
+#student-showcase i {
+    color: #c9c9c9;
+    font-size: 13px;
+}
+
+#student-showcase fieldset i {
+    font-size: 23px;
+
+}
+ 
+#student-showcase fieldset i:nth-child(2), .tick  {
+    color: red;
+    border: 2px solid #1d6d9c;
+    padding: 3px 7px;
+    border-radius: 22px;
+    background-color: lightblue;
+    font-size: 20px;
+}
+
+#student-showcase fieldset i:nth-child(4), #student-showcase fieldset i:nth-child(3){
+    color: #fbd455;
+    border: 2px solid;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 32px;
+    background-color: #f6f6f6;
+    font-size: 20px;
+
+}
+
+fieldset {
+   padding: 30px 45px;
+    border-bottom: white;
+    border-left: white;
+    border-right: white;
+
+}
+
+legend {
+   text-align: center;
+}
+
+.logos-img {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.logos-img img{
+    height: 30px;
+    margin: 2px;
+}
+
+.logos-img p {
+    margin: 5px; 
+}
+
+#student-showcase .replies p{   
+    color: #4283b5;
+}
+
+.description {
+    display: flex;
+    margin-top: 8px;
+
+}
+
+.description img {
+    width: 38px;
+}
+
+.description h2, p{ 
+    margin: 5px;
+}
+
+ .view {
+    padding-left: 35px;
+    font-size: 18px;
+   color: #4e4d4e;
+}
+
+.tick {
+   width: 33px;
+}
+
+#student-showcase .tick i {
+    color: black;
+
+}
+
+.flexbox-froggy {
+    background-color: #fef9ec
+}
+
+.game-section img {
+    width: 342px;
+}
+
+.game-area {
+    padding-left: 40px;
+}
+
+.game-pic img {
+    width: 383px;
+}
+
+.w3school {
+    border: 3px solid #ae9aaf;
+    margin-left: 40px;
+    border-bottom: white;
+    border-top: white;
+    border-right: white;
+
+}
+
+.w3school p {
+    padding: 0px;
+}
+
+#typing {
+    display: flex;
+    padding-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.input input {
+    padding: 15px;
+    border-right-color: white;
+    width: 600px;
+}
+
+#typing .input i {
+    font-size: 20px;
+}
+main {
+    display: flex;
+}
+
+.section1 {
+    padding: 20px 15px;
+}
+
+#whole-game-section {
+    padding-left: 18px;
+}
+
+#about-studentshowcase {
+    width: 35%;
+} 
+
+summary {
+    padding: 15px 0px;
+    border: 1px solid #eeeeee;
+}
+.top-heading {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid;
+    padding: 20px 30px 20px 10px;
+    background-color: #f8f8f8;
+}
+
+#about-studentshowcase h3 {
+    color: black;
+    margin: 0px;
+}
+
+.asking-ques .ques-list {
+    display: flex;
+}
+
+.asking-ques img {
+    width: 43px;
+}
+
+.ques-list {
+    padding: 10px 0px;
+}
+
+.ques-list i {
+    font-size: 13px;
+    padding: 0px 5px;
+}
+
+.text {
+    padding-left: 9px;
+}
+
+.text p {
+    margin-left: 0px;
+    margin-bottom: 0px;
+    color: #b5b4b5;
+
+}
+
+h5 {
+    color: #626162;
+}
+
+.related-info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.related-info i {
+    font-size: 16px;
+    color: black;
+}
+
+.related-info p {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.full-details {
+    padding-left: 17px;
+}
+
+summary i {
+    color: gold;
+    padding: 0px 9px 0px 0px;
+}
+
+.fa-map-pin {
+    color: orange;
+}
+
+.alt .fa-user-alt {
+    color: green;
+}
+
+.lists-info h5{
+    margin: 0px;
+    display: inline-block;
+    font-size: 14px;
+    color: #403f40;
+
+}
+
+.member-lists {
+    padding: 0px 18px;
+}
+
+.lists-info i {
+    font-size: 9px;
+}
+
+.lists-info {
+    display: flex;
+    padding: 7px 0px 2px 0px;
+}
+
+.lists-info img {
+    margin: 0px 5px;
+}    
+.lists-info i:nth-child(1)   {
+    color: green;
+}
+
+.i-color i:nth-child(1) {
+    color: grey;
+}
+
+.fa-exclamation-circle {
+    color: grey;
+}
+.fa-burn {
+    color: black;
+}
+
+.fa-file-image {
+    font-size: 52px;
+}
+
+.fa-clock {
+    color: gray;
+}
+
+.files {
+   
+    text-align: center;
+   margin:  7px auto;
+    border: 1px solid black; 
+    width: 70%;
+   border-color: gainsboro;
+}
+
+.files-info h4 {
+    margin: 8px 0px 0px;
+}
+
+.shared-files {
+    padding-left:9px;
+}
+
+.bell i{
+    color: red;
+}
+
